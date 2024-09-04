@@ -14,11 +14,11 @@
     <form action="./dati.php" method="GET">
     <div class="mb-3">
         <label for="paragrafo" class="form-label">Paragrafo</label>
-        <input type="text" class="form-control" id="paragrafo" aria-describedby="emailHelp">
+        <input type="text" class="form-control" id="paragrafo" name="paragrafo" aria-describedby="emailHelp">
     </div>
     <div class="mb-3">
         <label for="censura" class="form-label">Parola da censurare</label>
-        <input type="text" class="form-control" id="censura">
+        <input type="text" class="form-control" id="censura" name="censura">
     </div>
     <button type="submit" class="btn btn-primary">Invia</button>
     </form>
